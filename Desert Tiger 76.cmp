@@ -1,0 +1,54 @@
+campaign = 
+{
+    ["directory"] = "DCS World 2 OpenAlpha\\Mods\\aircraft\\F-5E\\Missions\\en\\Campaigns\\",
+    ["startStage"] = 1,
+    ["name_EN"] = "Desert Tiger 76",
+    ["description_EN"] = "1976 combat exercise to evaluate the F-5E Tiger II in a prolonged dynamic offensive air campaign against simulated Warsaw Pact forces in southern Nevada.",
+    ["necessaryUnits"] = 
+    {
+        ["F-5E-3"] = "F-5E-3",
+    }, -- end of ["necessaryUnits"]
+    ["description"] = "1976 combat exercise to evaluate the F-5E Tiger II in a prolonged dynamic offensive air campaign against simulated Warsaw Pact forces in southern Nevada.",
+    ["stages"] = 
+    {
+        [1] = 
+        {
+            ["name"] = "Stage 1",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Desert Tiger 76_first.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "DCS World 2 OpenAlpha\\Mods\\aircraft\\F-5E\\Missions\\en\\Campaigns\\Desert Tiger 76_first.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [1]
+        [2] = 
+        {
+            ["name"] = "Stage 2",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Desert Tiger 76_ongoing.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "DCS World 2 OpenAlpha\\Mods\\aircraft\\F-5E\\Missions\\en\\Campaigns\\Desert Tiger 76_ongoing.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [2]
+    }, -- end of ["stages"]
+    ["version"] = 1,
+    ["fullPath"] = "DCS World 2 OpenAlpha\\Mods\\aircraft\\F-5E\\Missions\\en\\Campaigns\\Desert Tiger 76.cmp",
+    ["name"] = "Desert Tiger 76",
+} -- end of campaign
