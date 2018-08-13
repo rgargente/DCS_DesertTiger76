@@ -331,9 +331,9 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 							-----------------------------------------------------------------------
 							for n,e in ipairs(target_element) do
 								local task_entry = {
-									["enabled"] = false,
+									["enabled"] = true,
 									["auto"] = false,
-									["id"] = "AttackMapObject",
+									["id"] = "Bombing",
 									["number"] = #waypoints[w]["task"]["params"]["tasks"] + 1,
 									["params"] = {
 										["x"] = flight[f].target.elements[e].x,

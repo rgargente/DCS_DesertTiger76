@@ -105,7 +105,7 @@ function CustomMapObjectAttack(FlightName, TargetList, expend, weaponType, attac
 			local task_entry = {												--define attack task
 				["enabled"] = true,
 				["auto"] = false,
-				["id"] = "AttackMapObject",
+				["id"] = "Bombing",
 				["number"] = #ComboTask.params.tasks + 1,
 				["params"] = 
 				{
